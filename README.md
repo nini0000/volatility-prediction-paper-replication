@@ -51,7 +51,7 @@ The original paper trains an LSTM on S&P 500 price data combined with 25 Google 
 The notebook expects one CSV per Google Domestic Trend plus `SP500.csv`. The easiest way to obtain them is from the companion repository:
 
 ```
-https://github.com/nini0000/volatility-prediction-paper-replication
+https://github.com/philipperemy/stock-volatility-google-trends
 ```
 
 Clone it into `external/stock-volatility-google-trends`, or copy the `trends/` folder into `data/trends/`. The notebook auto-detects both layouts.
@@ -64,7 +64,7 @@ See [`data/README.md`](data/README.md) for full instructions.
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/nini0000/volatility-prediction-paper-replication
+git clone [https://github.com/philipperemy/stock-volatility-google-trends]
 cd volatility-prediction-paper-replication
 
 # 2. Create a virtual environment (recommended)
