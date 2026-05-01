@@ -39,7 +39,7 @@ The original paper trains an LSTM on S&P 500 price data combined with 25 Google 
 │       ├── metrics.py                    # MAPE, RMSE helpers
 │       └── baselines.py                  # GARCH, Ridge, Lasso
 ├── data/
-│   └── README.md                         # Instructions for obtaining the CSVs
+│   └── README_dataset.md                         # Instructions for obtaining the CSVs
 └── outputs/
     └── notebook/                         # Saved plots and metrics JSON
 ```
